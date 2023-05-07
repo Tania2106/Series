@@ -1,11 +1,9 @@
-
-
 <div class="fondo">
     <div fxFlex fxLayout="column">
         <div fxLayout="row wrap">
     <div fxFlex="15" fxFlex.md="33"  fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" 
     *ngFor="let character of allComics | async">
-    <mat-card style="background-color: rgba(51, 170, 51, .1)">
+    <mat-card  class="comics" style="background-color: rgba(51, 170, 51, .1)">
     <img mat-card-image class="imagenes" src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{character.title}}">
     <mat-card-title>
         {{character.title}}
