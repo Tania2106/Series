@@ -22,3 +22,12 @@ body{
     background-color: brown;
     height: 1700px;
 }
+
+h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30pt;
+    position: absolute;
+    left: 620px;
+    top: 300px;
+}
