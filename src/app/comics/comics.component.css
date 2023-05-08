@@ -1,8 +1,9 @@
 .fondo{
-    background-image : url('src\assets\fondo1.jpeg');
+   
+    background-image : url('src\assets\fondo.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+
+
 }
 
 .imagenes{
@@ -14,5 +15,10 @@
     width: 80%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top:30%;
+    margin-top:10%;
+}
+
+body{
+    background-color: brown;
+    height: 1700px;
 }

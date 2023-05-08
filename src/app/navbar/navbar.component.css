@@ -19,28 +19,27 @@
 .encabezado{
   background: white;
   width: 100%;
-  height: 150px;
+  height: 80px;
 }
 
 .logo{
   width: 200px;
-  height: 100px;
-  position: relative;
-  top: 10%;
-  left: 550px;
+  height: 80px;
+  position: sticky;
+  top: 10px;
+  left: 600px;
 }
 
 .botonimagen{
   width: 200px;
   height: 60px;
   background-image : url('src\assets\flecha.jpg');
-  background-size: 20px 20px;
-  position: relative;
   background-repeat: no-repeat;
-  left: -190px;
-  top: 70px;
-
-
+  background-size: 20px 20px;
+  background-position: left center;
+  position: absolute;
+  left: 60px;
+  bottom: 580px;
 }
 
 .botonimagen2{
@@ -49,16 +48,16 @@
   background-image : url('src\assets\Login.png');
   background-repeat: no-repeat;
   background-size: 40px 40px;
+  background-position: left center;
   text-align: right;
-  position: relative;
-  top: 60px;
-  left: 800px;
-
+  position: absolute;
+  left: 1200px;
+  bottom: 580px;
 }
 
 .encabezado2{
   width: 100%;
-  height: 55px;
+  height: 50px;
   background: rgb(0, 0, 0);
 }
 
@@ -66,18 +65,22 @@
 .botones{
   color: white;
  text-decoration: none;
-  margin:70px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 11pt;
+  margin:80px;
 }
 
-
 .footerr{
-  background: white;
+  /* background: white;
   width: 100%;
-  height: 55px;
+  height: 150px; */
   display: flex;
-  position: relative;
-  bottom: -290%;
+  position: absolute;
+  bottom: -180%;
   /* left: 0px; */
+  height: 10%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   justify-content: space-between;
   align-items: center;
