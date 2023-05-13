@@ -1,5 +1,9 @@
 .sidenav-container {
-  background-color: rgb(199, 72, 33);
+  background-color: rgb(165, 54, 20);
+  background-image : url('src\assets\fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
    }
     
     
@@ -292,7 +296,7 @@
   text-align: center;
     
   align-items: center;
-  padding: 1% 0%;
+  padding: 3% 0%;
     
     }
     
@@ -337,7 +341,7 @@
     
   .foterr {
     
-  bottom: -6%;
+  bottom: -14%;
     
   height: 10%;
     

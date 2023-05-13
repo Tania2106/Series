@@ -297,3 +297,39 @@ margin: 2%;
 width: 40%;
 height: 20%;
 }
+
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+}
+.comics{
+    top: 90%;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:10%;
+}
+
+body{
+    
+    height: 1700px;
+}
+
+h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30pt;
+    position: absolute;
+    left: 580px;
+    top: 300px;
+}
+
+
+.image {
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    left: 580px;
+    top: 200px;
+    }
