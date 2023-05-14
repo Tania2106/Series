@@ -18,7 +18,7 @@ export class SeriesComponent implements OnInit {
     this.getSeries();
   
   }
-  getComics(){
+  getSeries(){
   this.allSeries = this.serieSvc.getAllSeries();
   }
 }

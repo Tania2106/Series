@@ -14,16 +14,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { ComicComponent } from './comics/comic/comic.component';
-import { ComicsComponent } from './comics/comics.component';
+import { SerieComponent } from './series/series/serie.component';
+import { SeriesComponent } from './series/series.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ComicComponent,
-    ComicsComponent
+    SerieComponent,
+    SeriesComponent
   ],
   imports: [
     BrowserModule,

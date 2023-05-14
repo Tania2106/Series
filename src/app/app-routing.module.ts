@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ComicsComponent } from './comics/comics.component';
+import { SeriesComponent } from './series/series.component';
 
 
 
 
 const routes: Routes = [
   {
-    path: '', redirectTo: '/comics', pathMatch: 'full'
+    path: '', redirectTo: '/series', pathMatch: 'full'
   },
   {
-    path: 'comics', component: ComicsComponent
+    path: 'series', component: SeriesComponent
   }
 ];
 

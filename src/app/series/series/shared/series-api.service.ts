@@ -15,7 +15,7 @@ export class SeriesApiService {
  
   constructor( private http: HttpClient) { }
 
-  getAllComics () : Observable<any>{
+  getAllSeries () : Observable<any>{
     return this.http.get<any>(this.URL_API)
     .pipe(map((data: any)=>data.data.results))
   }
