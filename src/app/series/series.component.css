@@ -305,9 +305,12 @@
     }
     .comics{
         top: 90%;
-        width: 80%;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 200px;
+        height: auto;
+
+        margin-left: 20%;
+        font-size: 4pt;
+        margin-right: 25%;
         margin-top:10%;
     }
     
