@@ -1,6 +1,6 @@
 .sidenav-container {
   background-color: rgb(165, 54, 20);
-  background-image : url('src\assets\fondo.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('src\assets\Fondo.jpg');
    }
     
     
@@ -306,7 +306,7 @@
     
   align-items: center;
     
-  margin: 5%;
+  margin: 20%;
     
     }
     
@@ -329,7 +329,7 @@
     
   right: 0%;
     
-  margin: 5%;
+  margin: 10%;
     
     }
     
